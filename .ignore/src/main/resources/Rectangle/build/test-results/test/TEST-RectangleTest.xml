@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RectangleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-31T09:32:59" hostname="gurushifu-gurushifugitp-pj5cb59q6jz" time="0.017">
+<testsuite name="RectangleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-31T09:52:03" hostname="gurushifu-gurushifugitp-pj5cb59q6jz" time="0.037">
   <properties/>
-  <testcase name="shouldReturnAreaIsZeroWhenLengthIsOneAndBreadthIsOne()" classname="RectangleTest" time="0.017"/>
+  <testcase name="shouldReturnAreaIsZeroWhenLengthIsOneAndBreadthIsOne()" classname="RectangleTest" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

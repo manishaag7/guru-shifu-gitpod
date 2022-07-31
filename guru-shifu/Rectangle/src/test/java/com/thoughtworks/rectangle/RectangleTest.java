@@ -11,6 +11,9 @@ public class RectangleTest {
         Rectangle rectangle= new Rectangle(1.21,1);
         double area = rectangle.area();
         assertThat(area, is(closeTo(1.21, 0.01)));
+
+        double perimeter = rectangle.perimeter();
+        assertThat(perimeter, is(closeTo(4.42, 0.01)));
     }
 
     
