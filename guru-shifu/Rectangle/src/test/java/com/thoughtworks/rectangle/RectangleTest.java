@@ -8,9 +8,9 @@ public class RectangleTest {
 
     @Test
     void shouldReturnAreaIsZeroWhenLengthIsOneAndBreadthIsOne() {
-        Rectangle rectangle= new Rectangle(1,1);
-        int area = rectangle.area();
-        assertThat(area,equalTo(1));
+        Rectangle rectangle= new Rectangle(1.21,1);
+        double area = rectangle.area();
+        assertThat(area, is(closeTo(1.21, 0.01)));
     }
 
     
